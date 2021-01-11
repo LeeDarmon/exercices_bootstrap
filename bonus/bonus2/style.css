@@ -1,0 +1,45 @@
+.bloc-aside{
+    height:100%;
+}
+
+.bloc-2{
+    height: 195px;
+}
+
+.border-white{
+    border-width:3px!important;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .bloc-2{
+        height:auto;
+    }
+.bloc-double{
+    height:200px;
+}
+.hidden-tablet{
+    display:none;
+}
+  }
+
+
+  @media screen and (min-width: 576px) {
+.hidden-other{
+    display:none;
+}
+  }
+
+  @media screen and (max-width: 575px) {
+
+    .hidden-mobile{
+        display:none;
+    }
+      }
+
+
+      @media screen and (max-width: 380px) {
+body{
+    font-size:3vw;
+}
+      }
